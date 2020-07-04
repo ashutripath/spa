@@ -1,0 +1,13 @@
+.slides {
+	width: 100%;
+    padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid rgb(77, 79, 79);
+	margin-top: 67px;
+}
+
+.slides #main {
+	flex: 1;
+	padding: 0px 100px;
+}

@@ -1,0 +1,83 @@
+@font-face {
+	font-family: "Poppins-Regular";
+	src: url("../assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Poppins-Thin";
+	src: url("../assets/fonts/Poppins-Thin.ttf");
+}
+
+@font-face {
+	font-family: "Poppins-Light";
+	src: url("../assets/fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+	font-family: "Poppins-Bold";
+	src: url("../assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+	font-family: "Poppins-SemiBold";
+	src: url("../assets/fonts/Poppins-SemiBold.ttf");
+}
+
+body {
+	background: black;
+	color: white;
+	height: 100vh;
+	margin: 0;
+	padding: 0;  
+	background-size: 5px 5px, 100% 100%;
+	background: rgb(33, 36, 36);  
+	font-family: fantasy;
+	font-family: "Poppins-Regular";
+	letter-spacing: 1px;
+}
+
+h1, p {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+h1 {
+	font-family: "Poppins-Bold";
+}
+
+p {
+	font-family: "Poppins-Light";
+	margin-top: 4px;
+	margin-bottom: 4px;
+	font-size: 1.2rem;
+}
+
+button {
+	background-color: inherit;
+    color: rgb(65, 199, 199);
+    border: none;
+	border: 1px solid rgb(77, 79, 79);
+	cursor: pointer;
+	font-size: 16px;
+}
+
+button:hover {
+	border: 1px solid rgb(65, 199, 199);
+	background: 1px solid rgb(87, 89, 99);
+}
+
+.heading {
+	font-weight: normal;
+	text-align: center;
+	max-height: 67px;
+	height: 67px;
+	line-height: 220%;
+	color: #fe6969;
+}
+
+.container {
+	color: white;
+	display: flex;
+	height: calc(100vh);
+}

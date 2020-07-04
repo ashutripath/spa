@@ -1,0 +1,23 @@
+#header {
+
+}
+
+.left {
+	width: 25vw;
+	border-right: 1px solid rgb(77, 79, 79);
+}
+
+#header > div {
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid rgb(77, 79, 79);
+	padding: 20px;
+}
+
+#header > div > button {
+    margin: 10px 0px;
+	padding: 4px 10px;
+	border-radius: 2px;
+	font-family: "Poppins-Light";
+	cursor: pointer;
+}
